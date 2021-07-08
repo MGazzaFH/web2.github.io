@@ -1,85 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            WEB MTS 2
-        </title>
+        <title>Div Design</title>
+        <meta name="author" content="Mgazza">
+        <meta name="keyword" content="Div Design">
+        <meta name="description" content="About Div Design">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="">
+        <style media="screen">
+            body {
+                background: white;
+            }
+            a {
+                background-color: black;
+            }
+            #container{
+                background: white;
+                border: 1px solid black;
+                width: 100%;
+                padding: 0px;
+                margin: 0px auto auto auto; 
+            }
+            .header {
+                background-image: url("images/m.png");
+                background: white;
+                border: 0px;
+                height: 150px;
+            }
+            .top-nav {
+                background:rgb(230, 153, 11);
+                border: 1px solid rgb(230, 153, 11);
+                padding: 0px 0px 0px 0px;
+                height: 47px;
+            }
+            .left-nav {
+                background: white;
+                border: 1px solid black;
+                width: 178px;
+                float: left;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 5px;
+            }
+            .content {
+                background: white;
+                border: 1px solid black;
+                margin: 0px 0px 0px 182px;
+                padding: 0px 0px 0px 5px;
+            }
+            .footer {
+                background: white;
+                border: 1px solid black;
+                text-align: center;
+                padding: 0px 0px;
+            }
+            ul {
+                list-style-type:none;
+                padding: 0px 0px 0px 0px;
+                overflow: hidden;
+                height: 45px;
+            }
+            li.a {
+                display: block;
+                background-color: red;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                color: red;
+            }
+            a {
+                background-color: rgb(230, 153, 11);
+                color: black;
+            }
+        </style>
     </head>
     <body>
-        <!-- Ini Contoh Web Meniru Web MTsN 2 Kota Bandung-->
-        <!-- <iframe width="100%" height="768" src="https://mtsn2kotabandung.sch.id/hubungi-kami/" title="description" scrolling="no"></iframe> -->
-        <table border="0" width="100%">
-            <tr>
-                <td colspan="5"><img src="https://mtsn2kotabandung.sch.id/owanseej/2021/02/cropped-Backgorund-MTS2-copy.jpg" alt="Logo MTS" width="100%"></td>
-            </tr>
-            <tr bgcolor="silver">
-                <td width="20%">BERANDA</td>
-                <td width="20%">PROFIL SEKOLAH</td>
-                <td width="20%">AKADEMIK</td>
-                <td width="20%">ALBUM GALERI</td>
-                <td width="20%">DATA SEKOLAH</td>
-            </tr>
-            <tr>
-                <td valign="top">
-                    <form action="">
-                    <table>
-                        <tr>
-                            <td>KOTAK PENCARIAN</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" value="Search..."> 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="submit" color="green" value="Search">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>VIDEO</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <iframe width="260" height="150" src="https://www.youtube.com/embed/BWJeH3prlhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
-                            </td>
-                        </tr>
-                    </table>
-                    </form>
-                </td>
-                <td colspan="3" align="middle" valign="top">
-                    <table>
-                        <tr>
-                            <td>
-                                <p>
-                                    <center>
-                                        <h3>Hubungi Kami</h3>
-                                        <img src="https://mtsn2kotabandung.sch.id/owanseej/2021/02/logoman2ketapang.png">
-                                    </center>
-                                    <center>
-                                        <h3>MADRASAH TSANAWIYAH NEGERI 2 KOTA BANDUNG</h3>
-                                        <h3>TERAKREDITASI A</h3> 
-                                        <h4>Jl. Antapani  No. 78 Antapani Kulon</h4>
-                                        <h4>Kecamatan Antapani – Kota Bandung 40291</h4>
-                                        <h4>Telp. (022) 7274275</h4>
-                                        <h5>Email :mtsn2kotabdg@gmail.com</h5>
-                                        <h5>Website : https://www.mtsn2kotabandung.sch.id</h5>
-                                        <h5>Support Online</h5>
-                                    </center>
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td valign="top">
-                    <table>
-                        <tr>
-                            <td>ARCHIVES</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        <div id="container">
+            <div class="header">
+                <img src="images/m.png" alt="MGFH LOGO" height="145px">
+            </div>
+            <div class="top-nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="left-nav">
+                <ul>
+                    <li><a>Article 1</a>
+                    </li>
+                    <li>
+                        <a>Article 2</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+            <div class="footer"><p>Copyright@MGazzaFH</p></div>
+        </div>
     </body>
 </html>
