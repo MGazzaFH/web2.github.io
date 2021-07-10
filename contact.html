@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div Design</title>
+        <meta name="author" content="Mgazza">
+        <meta name="keyword" content="Div Design">
+        <meta name="description" content="About Div Design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="">
+        <style media="screen">
+            body {
+                background: white;
+            }
+            a {
+                background-color: black;
+            }
+            p{
+                text-align: center;
+            }
+            #container{
+                background: white;
+                border: 1px solid black;
+                width: 100%;
+                padding: 0px;
+                margin: 0px auto auto auto; 
+            }
+            .header {
+                background-image: url("images/m.png");
+                background: white;
+                border: 0px;
+                height: 150px;
+                width: 100%;
+            }
+            .top-nav {
+                background:rgb(230, 153, 11);
+                border: 1px solid rgb(230, 153, 11);
+                padding: 0px 0px 0px 0px;
+                height: 47px;
+                width: 100%;
+            }
+            .left-nav {
+                background: white;
+                border: 1px solid black;
+                width: 178px;
+                float: left;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 5px;
+            }
+            .content {
+                background: white;
+                border: 1px solid black;
+                margin: 0px 0px 0px 182px;
+                padding: 10px 0px 0px 5px;
+            }
+            .footer {
+                background: white;
+                border: 1px solid black;
+                text-align: center;
+                padding: 0px 0px;
+            }
+            ul {
+                list-style-type:none;
+                padding: 0px 0px 0px 0px;
+                overflow: hidden;
+                height: 45px;
+            }
+            li.a {
+                display: block;
+                background-color: red;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                color: red;
+            }
+            #satu {
+                background-color: rgb(230, 153, 11);
+                color: black;
+            }
+            #satu:hover {
+                background-color: rgb(19, 89, 136);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="header">
+                <img src="https://www.mediafire.com/convkey/a32c/t3wr4p15x217fo2zg.jpg" alt="MGFH LOGO" height="145px">
+            </div>
+            <div class="top-nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a id="satu" href="index.html">Home</a></li>
+                    <li><a id="satu" href="#">Articles</a></li>
+                    <li><a id="satu" href="#">Contact Us</a></li>
+                    <li><a id="satu" href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="left-nav">
+                <ul>
+                    <li><a>Article 1</a>
+                    </li>
+                    <li>
+                        <a>Article 2</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2><p>Halaman Contact Us</p></h2>
+                <form action="proses.php" method="POST" class="" id="">
+                    <table>
+                        <tr>
+                            <td><label for="input_text">Nama </label></td>
+                            <td><input type="text" name="input_text" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_password">Password &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="password" name="input_password" value="HAHA">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" name="input_button" value="Kirim">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_checkbox">Anda Setuju &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="input_checkbox" value="Checkbox">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_color">Pilih Warna &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="color" name="input_color" value="#ffffff">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_date">Pilih Tanggal &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="date" name="input_date" value="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_file">Pilih Data &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="file" name="input_file">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_image">submit</label>
+                            </td>
+                            <td>
+                                <input type="image" src="images/m.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_month">Pilih Bulan &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="month" name="input_month">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_datetime-local">Pilih Waktu Lokal &nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="datetime-local" name="input_datetime-local">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_number">Pilih Nomor</label>
+                            </td>
+                            <td>
+                                <input type="number" name="input_number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_radio">Pilih Radio</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="input_radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_range">Pilih Jarak</label>
+                            </td>
+                            <td>
+                                <input type="range" name="input_range">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_search">Pencarian</label>
+                            </td>
+                            <td>
+                                <input type="search" name="input_search">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_tel">Pilih Tel</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="input_tel">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_url"></label>
+                            </td>
+                            <td>
+                                <input type="url" name="input_url">
+                            </td>    
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="input_week">Pilih Minggu</label>
+                            </td>
+                            <td>
+                                <input type="week" name="input_week">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="footer"><p>Copyright@MGazzaFH</p></div>
+        </div>
+    </body>
+</html>
