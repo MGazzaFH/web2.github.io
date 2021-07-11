@@ -242,7 +242,80 @@
                                 <input type="week" name="input_week">
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <label for="textarea1">Alamat Lengkap &nbsp;</label>
+                            </td>
+                            <td>
+                                <textarea name="textarea1" rows="10" cols="4" class=""></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button type="button" onclick="alert('Hello World')">Click Me!</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="reset" onclick="alert('RESET DATA')">RESET ME</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" onclick="alert('SUBMIT DATA')">KIRIM</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">JENIS KELAMIN</label>
+                            </td>
+                            <td>
+                                <select class="" name="jeniskelamin" id="jeniskelamin">
+                                    <option value="Laki-Laki">LAKI LAKI</option>
+                                    <option value="Perempuan">PEREMPUAN</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="merk_mobil">Merek Mobil</label>
+                            </td>
+                            <td>
+                                <select name="merk_mobil" id="merk_mobil">
+                                    <optgroup label="Jepang">
+                                        <option value="Toyota">Toyota</option>
+                                        <option value="Honda">Honda</option>
+                                        <option value="Mitsubishi">Mitsubishi</option>
+                                        <option value="Suzuki" selected>Suzuki</option>
+                                    </optgroup>
+                                    <optgroup label="Jerman">
+                                        <option value="Mercedes_Benz">Mercedes Benz</option>
+                                        <option value="Volkswagen">Volkswagen</option>
+                                        <option value="BMW">BMW</option>
+                                        <option value="Audi">Audi</option>
+                                        <option value="Porsche">Porsche</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
                     </table>
+                </form>
+                <form action="proses_siswa.php">
+                    <fieldset>
+                        <legend>Data Siswa:</legend>
+                        <label for="nama_siswa">Nama Siswa &nbsp;&nbsp;&nbsp;:</label>
+                        <input type="text" name="nama_siswa" value=""><br>
+                        <label for="alamat_siswa">Alamat Siswa &nbsp;:</label>
+                        <input type="text" name="alamat_siswa" value=""><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Data Orang Tua:</legend>
+                        <label for="nama_ortu">Nama Ortu &nbsp;&nbsp;&nbsp;:</label>
+                        <input type="text" name="nama_ortu" value=""><br>
+                        <label for="alamat_ortu">Alamat Ortu &nbsp;:</label>
+                        <input type="text" name="alamat_ortu" value=""><br>
+                    </fieldset>
                 </form>
             </div>
             <div class="footer"><p>Copyright@MGazzaFH</p></div>
